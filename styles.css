@@ -1,0 +1,45 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("https://source.unsplash.com/nDqA4d5NL0k/2000x2000");
+    font-family: sans-serif;
+    background-size: cover;
+    align-items: center;
+    min-height: 90vh;
+    margin: 0;
+}
+
+.band {
+    background: white;
+    width: 300px;
+    align-items: center;
+    align-content: center;
+    list-style: inside square;
+    font-size: 20px;
+    margin: 6rem auto;
+    padding: 0;
+    box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+.band li {
+    padding: 20px;
+    border-bottom: 1px solid #efefef;
+}
+
+@media (min-width: 800px) {
+    .band {
+        background: white;
+        width: 450px;
+        align-items: center;
+        align-content: center;
+        list-style: inside square;
+        font-size: 20px;
+        margin: 11rem auto;
+        padding: 0;
+        box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.05);
+    }
+}
